@@ -96,6 +96,7 @@ function initialize(numRows, numCols, numMines) {
                         console.log("danger!", ambientRow, ambientCol);
                         count += 1;
                     }
+                    
                 }
 
                 if (count > 0) {
@@ -105,7 +106,6 @@ function initialize(numRows, numCols, numMines) {
         }
 
     }
-
 
 
     // console.log(grid);

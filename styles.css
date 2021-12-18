@@ -6,6 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    background-color: rgb(182, 206, 199);
 }
 
 .game-pane {
@@ -37,7 +38,7 @@ body {
 
 .cell.landmine {
     border: none;
-    background: url(mine.jpg) no-repeat;
+    background: url(img/mine.jpg) no-repeat;
     background-color: white;
     background-size: 100% 100%;
     background-position: 2px 0;
@@ -45,16 +46,15 @@ body {
 
 .cell.landmine.exploded {
     border: none;
-    background: url(redmine.jpg) no-repeat;
+    background: url(img/redmine.jpg) no-repeat;
     background-color:red;
     background-size: 100% 100%;
     background-position: 2px 0;
 }
 
-
 .cell.landmine.success {
     border: none;
-    background: url(greenmine.jpg) no-repeat;
+    background: url(img/greenmine.jpg) no-repeat;
     background-color:green;
     background-size: 100% 100%;
     background-position: 2px 0;

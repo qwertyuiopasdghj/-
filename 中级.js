@@ -154,6 +154,7 @@ function explode(grid, row, col, numRows, numCols) {
                 cell.cellEl.classList.add('landmine');
             }
         }
+        
     }
     if("cell exploded clear landmine"){
         alert("游戏失败！")
@@ -189,6 +190,5 @@ function checkAllClear(grid) {
 }
 
 let grid = initialize(14, 14, 25);
-
 
 renderBoard(14, 14, grid);
