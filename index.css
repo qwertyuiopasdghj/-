@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    background-color: rgb(182, 206, 199);
+    background-color: rgb(149, 183, 204);
 }
 #mine {
     margin: 50px auto;
@@ -15,12 +15,12 @@ body {
 
 .level {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .level button {
-    padding: 5px 15px;
-    background-color: #02a4ad;
+    padding: 7px 15px;
+    background-color: #597ca3;
     border: none;
     color: #fff;
     border-radius: 3px;
@@ -29,32 +29,38 @@ body {
 }
 
 .level button.active {
-    background-color: #00abff;
+    background-color: #208da8;
 }
 
 table {
     border-spacing: 1px;
     background-color: #929196;
     margin: 0 auto;
+    box-shadow: 2px 2px 2px rgb(179, 176, 176);
+
 }
 
 td {
     padding: 0;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     background-color: #ccc;
     border: 2px solid;
-    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    border-color: rgb(243, 234, 234) #a1a1a1 #918e8e #fff;
     text-align: center;
     line-height: 20px;
     font-weight: bold;
+    box-shadow: 2px 2px 2px rgb(179, 176, 176);
 
 }
+.game-pane {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(141, 128, 128);
 
-.tips {
-    color: red;
-    font-size: 16px;
+    box-shadow: 2px 2px 2px rgb(179, 176, 176);
 }
+
 
 .mine {
     background: #d9d9d9 url(mine.jpg) no-repeat center;
@@ -72,54 +78,55 @@ td {
 }
 
 td.zero {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
+    border-style: solid;
+    border-color: rgb(231, 231, 231);
+    background-color: #eee;
 }
 
 td.one {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
-    color: #0332fe;
+    background-color: #eee;
+    border-color: rgb(231, 231, 231);
+    color: #5369c9;
 }
 
 td.two {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
-    color: #019f02;
+    background-color: #eee;
+    border-color: #ebebeb;
+    color: #32a132;
 }
 
 td.three {
-    background-color: #d9d9d9;
+    background-color: #eee;
     border-color: #d9d9d9;
-    color: #ff2600;
+    color: #cf4e37;
 }
 
 td.four {
-    background-color: #d9d9d9;
+    background-color: #eee;
     border-color: #d9d9d9;
-    color: #93208f;
+    color: #962e92;
 }
 
 td.five {
-    background-color: #d9d9d9;
+    background-color: #eee;
     border-color: #d9d9d9;
-    color: #ff7f29;
+    color: #f38236;
 }
 
 td.six {
-    background-color: #d9d9d9;
+    background-color: #eee;
     border-color: #d9d9d9;
     color: #ff3fff;
 }
 
 td.seven {
-    background-color: #d9d9d9;
+    background-color: #eee;
     border-color: #d9d9d9;
     color: #3fffbf;
 }
 
 td.eight {
-    background-color: #d9d9d9;
+    background-color: #eee;
     border-color: #d9d9d9;
     color: #22ee0f;
 }

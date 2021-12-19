@@ -9,22 +9,41 @@
 </head>
 
 <body>
-    <div id="mine">
-        <div class="level">
+    <center>
+
+        <div style="margin-top:0.8em;">
+            <b><span>扫雷游戏</span></b>
+        </div>
+
+        <div class="level" style="margin-top:0.8em;">
             <button class="active">初级</button>
             <button>中级</button>
             <button>高级</button>
             <button>重新开始</button>
         </div>
+        <table style="margin-top:1em;border-radius:6px;"></table>
+
         <div class="gameBox">
         </div>
+        <div class="game-pane">
+            <table id=body>
+
+
+            </table>
+        </div>
+
+
         <div class="info">
             剩余雷数：<span class="mineNum"></span>
             <br>
-            <span class="tips">左键扫雷，右键插旗，再次点击右键拔旗</span>
+            <table style="margin-top:0.5em;border-radius:6px;"></table>
+            <span > 左键扫雷，右键插旗，再次点击右键拔旗</span>
+        
         </div>
+
     </div>
     <script src="index.js"></script>
+    </center>
 </body>
 
 </html>

@@ -227,7 +227,7 @@ var ln = 0;
 var arr = [
     [9, 9, 10],
     [16, 16, 30],
-    [20, 28, 50]
+    [18, 28, 50]
 ]; 
 for (let i = 0; i < btns.length - 1; i++) {
     btns[i].onclick = function () {
