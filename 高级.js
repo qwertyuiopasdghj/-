@@ -1,7 +1,6 @@
 function renderBoard(numRows, numCols, grid) {
     let boardEl = document.querySelector("#board");
 
-    
     for (let i = 0; i < numRows; i++) {
         let trEl = document.createElement("tr");
         for (let j = 0; j < numCols; j++) {
@@ -107,7 +106,6 @@ function initialize(numRows, numCols, numMines) {
     }
 
 
-
     return grid;
 }
 
@@ -188,6 +186,6 @@ function checkAllClear(grid) {
     return true;
 }
 
-let grid = initialize(15, 20, 35);
+let grid = initialize(15, 20, 40);
 
 renderBoard(15,20, grid);
